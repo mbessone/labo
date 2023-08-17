@@ -4,10 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
 	<!-- Change the group ID with the class group -->
     <groupId>b1bdacde-dd70-4a30-a4f6-148cda8a638f</groupId>
-    <artifactId>rtf-unified-app</artifactId>
+    <artifactId>mjb-rtf-unified-app</artifactId>
     <version>2.3.0</version>
     <packaging>mule-application</packaging>
-    <name>rtf-unified-app</name>
+    <name>mjb-rtf-unified-app</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
