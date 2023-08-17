@@ -246,9 +246,9 @@
 
     <repositories>
         <repository>
-            <id>anypoint-exchange-v2</id>
+            <id>anypoint-exchange-v3</id>
             <name>Anypoint Exchange</name>
-            <url>https://maven.anypoint.mulesoft.com/api/v2/maven</url>
+            <url>https://maven.anypoint.mulesoft.com/api/v3/maven</url>
         </repository>
         <repository>
             <id>mulesoft-releases</id>
@@ -269,7 +269,7 @@
         <repository>
             <id>rtfk.repository</id>
             <name>Class Repository</name>
-            <url>https://maven.anypoint.mulesoft.com/api/v1/organizations/${business.group.id}/maven</url>
+            <url>https://maven.anypoint.mulesoft.com/api/v3/organizations/${business.group.id}/maven</url>
         </repository>
     </distributionManagement>
 </project>
