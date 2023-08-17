@@ -6,6 +6,9 @@
     <groupId>b1bdacde-dd70-4a30-a4f6-148cda8a638f</groupId>
     <artifactId>mjb-rtf-unified-app</artifactId>
     <version>2.3.1</version>
+    <configuration>
+	<trimStackTrace>false</trimStackTrace>
+    </configuration>
     <packaging>mule-application</packaging>
     <name>mjb-rtf-unified-app</name>
 
