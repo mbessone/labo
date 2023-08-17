@@ -32,7 +32,7 @@
         <password />
         <rtf.app.name>${project.artifactId}</rtf.app.name>
         <deployment.target />
-        <business.group.id>6a5e4e95-eb4f-4546-bc52-2418638083ba</business.group.id>
+        <business.group.id>b1bdacde-dd70-4a30-a4f6-148cda8a638f</business.group.id>
         <app.inbound.url />
         <app.version>${project.version}</app.version>
         <api_id />
