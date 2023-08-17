@@ -129,5 +129,5 @@ jobs:
       env:
         AUTHOR: "Mr Developer"
       run: |
-        mvn clean deploy --file pom.xml -DmuleDeploy -Dusername="${{ secrets.ANYPOINT_USERNAME }}" -Dpassword="${{ secrets.ANYPOINT_PASSWORD }}" -Drtf.app.name="auto-mjb" -Dapp.inbound.url="auto-mjb.mulesoft-training.com/*" -Ddeployment.target="labo-aws-01"
+        mvn clean deploy --file pom.xml -DmuleDeploy -Dusername="${{ secrets.ANYPOINT_USERNAME }}" -Dpassword="${{ secrets.ANYPOINT_PASSWORD }}" -Drtf.app.name="auto-mjb" -Dapp.inbound.url="http://auto-mjb.mulesoft-training.com/*" -Ddeployment.target="labo-aws-01"
         
