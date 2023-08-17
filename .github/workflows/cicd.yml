@@ -129,4 +129,5 @@ jobs:
       env:
         AUTHOR: "Mr Developer"
       run: |
-        mvn clean deploy --file pom.xml -DmuleDeploy -Dap.client_id="${{ secrets.AP_CLIENT_ID }}" -Dap.client_secret="${{ secrets.AP_CLIENT_SECRET }}"   
+        mvn clean deploy --file pom.xml -DmuleDeploy -Dusername="${{ secrets.ANYPOINT_USERNAME }}" -Dpassword="${{ secrets.ANYPOINT_PASSWORD }}" -Drtf.app.name="auto-mjb" -Dapp.inbound.url="auto-mjb.mulesoft-training.com/*" -Ddeployment.target="labo-aws-01"
+        
