@@ -91,7 +91,7 @@
                         <username>${username}</username>
                         <password>${password}</password>
                         <applicationName>${rtf.app.name}</applicationName>
-                        <target>Sandbox</target>
+                        <target>${deployment.target}</target>
                         <environment>Sandbox</environment>
                         <businessGroupId>${business.group.id}</businessGroupId>
                         <provider>MC</provider>
