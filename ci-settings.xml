@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (C) MuleSoft, Inc. All rights reserved. http://www.mulesoft.com
+
+  The software in this package is published under the terms of the
+  Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License,
+  a copy of which has been included with this distribution in the LICENSE.txt file.
+-->
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <servers>
+    <server>
+      <!-- MuleSoft repository for artifacts related to Mule runtime EE -->
+      <id>releases-ee</id>
+      <username>${env.REL_EE_UNAME}</username>
+      <password>${env.REL_EE_PASSW}</password>
+    </server>
+    <server>
+      <!-- Anypoint Exchange repository -->
+      <id>rtfk.repository</id>
+      <username>${env.AP_UNAME}</username>
+      <password>${env.AP_PASSW}</password>
+    </server>
+  </servers>
+</settings>
